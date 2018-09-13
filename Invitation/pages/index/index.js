@@ -59,8 +59,24 @@ Page({
     console.log(item.index)
     console.log(item.pagePath)
     console.log(item.text)
-  }
 
+    return {
+      title: '邀请帖',
+      path: '/page/user?id=123'
+    }
+  },
+
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+
+    return {
+      title: '邀请帖',
+      path: '/page/user?id=123'
+    }
+  }
 
 })
 
