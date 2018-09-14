@@ -1,12 +1,13 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/testFirstPage/testFirstPage"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff774",
     "navigationBarTitleText": "邀请贴",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }

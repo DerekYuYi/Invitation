@@ -10,13 +10,21 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  
-  //事件处理函数
+
+  // touch or tap events
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+
+  gotoTestFirstPage: function() {
+    wx.navigateTo({
+      url: '../testFirstPage/testFirstPage',
+    })
+  },
+
+  // Life Cycle
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
@@ -59,11 +67,6 @@ Page({
     console.log(item.index)
     console.log(item.pagePath)
     console.log(item.text)
-
-    return {
-      title: '邀请帖',
-      path: '/page/user?id=123'
-    }
   },
 
   onShareAppMessage: function (res) {
