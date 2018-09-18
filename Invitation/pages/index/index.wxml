@@ -11,6 +11,7 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 
-<button bindtap="gotoTestFirstPage">gotoTestFirstPage</button>
+<button class="button-test" bindtap="gotoTestButtonPage">gotoTestFirstPage</button>
+<button class="button-test" bindtap="gotoSecondPage">gotoSecondPage</button>
 
 </view>

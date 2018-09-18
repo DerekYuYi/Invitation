@@ -1,0 +1,54 @@
+/* pages/secondPage/secondPage.wxss */
+
+.flex-wrp {
+  width: 100px;
+  height: 100px;
+}
+
+.flex-itemGreen {
+  display: flex;
+  flex-direction: column;
+  color: green;
+}
+
+.flex-itemRed {
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
+
+.flex-itemBlue {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+}
+
+.section {
+  /* display: flex; */
+  color: black;
+}
+
+.setion_title {
+  display: flex;
+  color: black;
+}
+
+.scroll-view-item bc_green {
+  background-color: green;
+}
+
+.scroll-view-item bc_red {
+  background-color: red;
+}
+
+.scroll-view-item bc_blue {
+  background-color: blue;
+}
+
+.scroll-view-item bc_yellow {
+  background-color: yellow;
+}
+
+.btn-area {
+  color: black;
+}

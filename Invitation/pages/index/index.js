@@ -18,12 +18,18 @@ Page({
     })
   },
 
-  gotoTestFirstPage: function() {
+  gotoTestButtonPage: function() {
     wx.navigateTo({
       url: '../testFirstPage/testFirstPage',
     })
   },
-
+  
+  gotoSecondPage: function() {
+    wx.navigateTo({
+      url: '../secondPage/secondPage',
+    })
+  },
+  
   // Life Cycle
   onLoad: function () {
     if (app.globalData.userInfo) {

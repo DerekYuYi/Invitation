@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/testFirstPage/testFirstPage"
+    "pages/testFirstPage/testFirstPage",
+    "pages/secondPage/secondPage"
   ],
   "window": {
     "backgroundTextStyle": "light",
